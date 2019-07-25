@@ -53,3 +53,5 @@ Change the email to your administrator email. Finally set authentication to Mana
 ![httpTrigger.png](images/httpTrigger.png)
 
 You may want to add some logic to test for an HTTP 200 return code and handle any error conditions. This can be seen in the weather app at [https://github.com/davedoesdemos/Quickwins-WeatherData/blob/master/QuickwinsWeatherData.md](https://github.com/davedoesdemos/Quickwins-WeatherData/blob/master/QuickwinsWeatherData.md)
+
+You'll also probably want a second app to scale the system back down at other times of the day.
